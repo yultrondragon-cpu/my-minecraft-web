@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="YDragonSMP - A Minecraft survival server. Join the adventure.">
+  <title>YDragonSMP | Minecraft Server</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <header class="navbar">
+    <a class="brand" href="#home"><span class="brand-dragon">Y</span>DRAGON<span>SMP</span></a>
+    <button class="menu" aria-label="Open menu">☰</button>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#features">Features</a>
+      <a href="#rules">Rules</a>
+      <a href="#status">Status</a>
+      <a href="#rewards">Rewards</a>
+      <a href="#community">Discord</a>
+    </nav>
+    <a class="nav-btn" href="#join">PLAY NOW</a>
+  </header>
+
+  <main>
+    <div class="ad-slot adsterra-slot" id="adsterra-top">
+      <span>ADVERTISEMENT</span>
+      <!-- Paste your Adsterra banner code here -->
+    </div>
+    <section id="home" class="hero">
+      <div class="hero-copy">
+        <div class="pill"><i></i> SURVIVAL SERVER</div>
+        <h1>YOUR STORY.<br><em>YOUR SMP.</em></h1>
+        <p>Build, explore, fight, trade and create your own adventure on YDragonSMP.</p>
+        <div class="hero-actions">
+          <a class="primary" href="#join">JOIN THE SERVER <span>→</span></a>
+          <button class="secondary copy-ip" data-ip="ydragonsmp.shockbyte.games">COPY SERVER IP</button>
+        </div>
+        <div class="ip-line"><span class="dot"></span><code>ydragonsmp.shockbyte.games</code><span id="copy-label">Click to copy</span></div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="dragon-ring ring1"></div>
+        <div class="dragon-ring ring2"></div>
+        <div class="dragon">
+          <div class="horn h1"></div><div class="horn h2"></div>
+          <div class="dragon-head"><div class="eye e1"></div><div class="eye e2"></div></div>
+          <div class="wing w1"></div><div class="wing w2"></div>
+          <div class="body"></div>
+          <div class="tail"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div><strong id="player-count">—</strong><span>PLAYERS ONLINE</span></div>
+      <div><strong>JAVA</strong><span>EDITION</span></div>
+      <div><strong>24/7</strong><span>ADVENTURE</span></div>
+      <div><strong>∞</strong><span>YOUR POSSIBILITIES</span></div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="section-head"><span>01</span><div><small>WHY PLAY HERE</small><h2>SERVER <span>FEATURES</span></h2></div></div>
+      <div class="cards">
+        <article><div class="icon">⚔</div><h3>Survival</h3><p>Gather resources, build your base and create your own survival story.</p></article>
+        <article><div class="icon">☄</div><h3>Adventure</h3><p>Explore the world, discover new places and take on challenges with friends.</p></article>
+        <article><div class="icon">◆</div><h3>Community</h3><p>Meet players, trade, team up and build a community around the server.</p></article>
+        <article><div class="icon">🏆</div><h3>Rewards</h3><p>Earn rewards through events and the YDragonSMP reward system.</p></article>
+        <article><div class="icon">🛡</div><h3>Fair Play</h3><p>Enjoy a protected environment with clear rules and no unfair advantages.</p></article>
+        <article><div class="icon">🌎</div><h3>Always Growing</h3><p>New content, events and improvements can be added as the server grows.</p></article>
+      </div>
+    </section>
+
+    <section id="status" class="section status-section">
+      <div class="section-head"><span>02</span><div><small>SERVER</small><h2>LIVE STATUS</h2></div></div>
+      <div class="status-card">
+        <div class="status-big"><i id="status-dot"></i><div><b id="status-text">CHECKING...</b><span>ydragonsmp.shockbyte.games</span></div></div>
+        <div class="status-player"><b id="status-players">—</b><span>ONLINE</span></div>
+        <button class="secondary copy-ip" data-ip="ydragonsmp.shockbyte.games">COPY IP</button>
+      </div>
+      <p class="status-note">Status is checked through the public Minecraft server status service. If your server is offline, the page will show it automatically.</p>
+      <div class="ad-slot adsterra-slot" id="adsterra-middle">
+        <span>ADVERTISEMENT</span>
+        <!-- Paste your second Adsterra banner code here -->
+      </div>
+    </section>
+
+    <section id="rules" class="section">
+      <div class="section-head"><span>03</span><div><small>PLAY FAIR</small><h2>SERVER RULES</h2></div></div>
+      <div class="rules">
+        <div><b>01</b><div><h3>Respect everyone</h3><p>No harassment, hate speech or targeted abuse.</p></div></div>
+        <div><b>02</b><div><h3>No cheating</h3><p>No hacked clients, exploits or unfair advantages.</p></div></div>
+        <div><b>03</b><div><h3>No griefing</h3><p>Respect other players' builds and belongings.</p></div></div>
+        <div><b>04</b><div><h3>Keep chat clean</h3><p>No spam or inappropriate content.</p></div></div>
+      </div>
+      <p class="editable">These are starter rules. Replace them with your server's official rules before launch.</p>
+    </section>
+
+    <section id="rewards" class="section rewards-section">
+      <div class="section-head"><span>04</span><div><small>PLAY • WATCH • EARN</small><h2>REWARD <span>CENTER</span></h2></div></div>
+      <div class="reward-wrap">
+        <div class="reward-copy">
+          <div class="reward-badge">🎁 DAILY REWARDS</div>
+          <h3>Watch an ad. <span>Earn a reward.</span></h3>
+          <p>Support YDragonSMP by watching an optional advertisement and receive a server reward. Rewards can be configured by the server owner.</p>
+          <ul>
+            <li>Optional ads — never required to play</li>
+            <li>One reward per cooldown period</li>
+            <li>Server-controlled reward amounts</li>
+          </ul>
+        </div>
+        <div class="reward-card">
+          <div class="reward-icon">🎁</div>
+          <b>Watch & Earn</b>
+          <span>Choose a reward video below. A successful completion can trigger your server reward.</span>
+          <div class="reward-videos">
+          <div class="video-reward-slot">
+            <span>REWARD VIDEO 1</span>
+            <div class="video-placeholder">APLIXIR VIDEO AD</div>
+            <!-- Paste/configure the Aplixir rewarded-video integration here -->
+          </div>
+          <div class="video-reward-slot">
+            <span>REWARD VIDEO 2</span>
+            <div class="video-placeholder">APLIXIR VIDEO AD</div>
+            <!-- Paste/configure the Aplixir rewarded-video integration here -->
+          </div>
+          <div class="video-reward-slot">
+            <span>REWARD VIDEO 3</span>
+            <div class="video-placeholder">APLIXIR VIDEO AD</div>
+            <!-- Paste/configure the Aplixir rewarded-video integration here -->
+          </div>
+          <div class="video-reward-slot">
+            <span>REWARD VIDEO 4</span>
+            <div class="video-placeholder">APLIXIR VIDEO AD</div>
+            <!-- Paste/configure the Aplixir rewarded-video integration here -->
+          </div>
+          <div class="video-reward-slot">
+            <span>REWARD VIDEO 5</span>
+            <div class="video-placeholder">APLIXIR VIDEO AD</div>
+            <!-- Paste/configure the Aplixir rewarded-video integration here -->
+          </div></div>
+          <button id="reward-btn" class="primary">WATCH AD & CLAIM</button>
+          <small id="reward-message">Aplixir integration pending.</small>
+        </div>
+      </div>
+      <p class="reward-note">The button is ready for an ad provider integration. Connect your chosen ad/reward service before enabling real payouts.</p>
+    </section>
+
+    <section id="join" class="join">
+      <div>
+        <div class="pill">READY?</div>
+        <h2>JOIN YDRAGON<span>SMP</span></h2>
+        <p>Copy the IP, open Minecraft Java Edition, add the server and start playing.</p>
+      </div>
+      <div class="join-box">
+        <span>SERVER ADDRESS</span>
+        <code>ydragonsmp.shockbyte.games</code>
+        <button class="primary copy-ip" data-ip="ydragonsmp.shockbyte.games">COPY IP</button>
+      </div>
+    </section>
+
+    <section id="community" class="community section">
+      <div class="section-head"><span>05</span><div><small>STAY CONNECTED</small><h2>COMMUNITY</h2></div></div>
+      <div class="community-grid">
+        <a class="community-card discord-card" href="#" onclick="return false"><span>DISCORD</span><b>Join the community →</b><small>Add your Discord invite link in index.html</small></a>
+        <a class="community-card" href="#" onclick="return false"><span>Store</span><b>Visit the store →</b><small>Add your store URL when ready</small></a>
+      </div>
+    </section>
+    <div class="ad-slot adsterra-slot" id="adsterra-bottom">
+      <span>ADVERTISEMENT</span>
+      <!-- Paste your third Adsterra banner code here if desired -->
+    </div>
+  </main>
+
+  <footer>
+    <div class="brand"><span class="brand-dragon">Y</span>DRAGON<span>SMP</span></div>
+    <p>© <span id="year"></span> YDragonSMP. Not affiliated with Mojang or Microsoft.</p>
+    <a href="#home">BACK TO TOP ↑</a>
+  </footer>
+
+  <div id="toast" class="toast">Server IP copied!</div>
+  <script src="script.js"></script>
+</body>
+</html>
